@@ -1,4 +1,11 @@
-# Bootstrap
+## Rappels
+
+### Modèle de boite
+
+<img src="./images/mdb.png">
+
+
+## Bootstrap
 
 Bootstrap est un framework (cadre de travail) qui vous fourni un code CSS déjà prêt à l'emploi.
 
