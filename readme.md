@@ -2,6 +2,12 @@
 
 ### Modèle de boite
 
+Cela concerne tous les blocs (= élément HTML). Chacun dispose de 4 parties qui le composent : 
+1. `content` : le contenu du bloc
+2. `padding` : la marge intérieure du bloc
+3. `border` : la bordure du bloc
+4. `margin` : la marge extérieure du bloc
+
 <img src="./images/mdb.png">
 
 
