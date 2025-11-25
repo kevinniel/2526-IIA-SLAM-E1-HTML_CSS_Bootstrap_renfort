@@ -19,6 +19,14 @@ Lorsque l'on découpe "visuellement" une maquette, on suit l'ordre suivant :
 
 *Note* : Les margins et les paddings sont presque tout le temps égaux à l'opposé, pour respecter une symétrie.
 
+### RWD (Responsive Web Design)
+
+Le principe est que le contenu s'adapte parfaitement à toutes les tailles d'écran. 
+
+Pour le faire, on utilise des BreakPoints, appelées "Media Queries" en CSS. Le principe, est de définir une largeur en pixels,
+et d'adapter le contenu de la page, en fonction de sa largeur. En gros, vous appliquer certaines règles CSS en fonction de la
+largeur de votre écran.
+
 ## Bootstrap
 
 Bootstrap est un framework (cadre de travail) qui vous fourni un code CSS déjà prêt à l'emploi.
@@ -26,6 +34,8 @@ Bootstrap est un framework (cadre de travail) qui vous fourni un code CSS déjà
 <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" title="Lien de la doc de bootstrap" target="_blank">Lien de la doc de bootstrap</a>
 
 ### La Grid Bootstrap
+
+#### Les bases
 
 Bootstrap est prévu pour fonctionné sur un modèle de 12 colonnes découpables. Ces colonnes s'utilisent grâce aux classes suivantes : 
 - `col-1` : Prend l'espace de 1 colonne dans le bloc parent.
@@ -65,3 +75,8 @@ Chaque colonne doit **Obligatoirement** être disposée dans un autre élément 
 Dernière spécificité, tous les `row` doivent être dans un élément contenant la class `container` ou `container-fluid`.
 
 le `container` laisse des marges droite / gauche de visibles tandis que le `container-fluid` prend 100% de la largeur.
+
+#### Le Responsive (RWD)
+
+
+
