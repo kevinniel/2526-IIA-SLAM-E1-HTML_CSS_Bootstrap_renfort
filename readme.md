@@ -1,5 +1,9 @@
 ## Rappels
 
+- C'est le W3C (World Wide Web Consortium) qui gère les évolutions du HTML/CSS.
+- Un CTA, est un "Call To Action" : c'est à dire un lien ou un bouton qui déclenche une action.
+
+
 ### Modèle de boite
 
 <img src="./images/mdb.png">
@@ -26,6 +30,20 @@ Le principe est que le contenu s'adapte parfaitement à toutes les tailles d'éc
 Pour le faire, on utilise des BreakPoints, appelées "Media Queries" en CSS. Le principe, est de définir une largeur en pixels,
 et d'adapter le contenu de la page, en fonction de sa largeur. En gros, vous appliquer certaines règles CSS en fonction de la
 largeur de votre écran.
+
+### Display
+
+Le display est une propriété CSS qui permet de gérer la manière dont les éléments doivent être affichés.
+
+Il en existe 6 principaux : 
+- `None` : N'affiche pas l'élément
+- `Block` : Prend 100% de la largeur disponible. S'adapte en hauteur, en prenant le minimum nécessaire pour afficher le contenu. On peut redéfinir sa taille en dur.
+- `Inline` : Prend uniquement l'espace nécessaire en hauter et en largeur pour afficher son contenu. On ne peut pas redéfinir sa taille.
+- `Inline-Block` : C'est le même comportement que "Inline", à ceci près qu'on peut modifier sa tailler et son padding.
+- `Flex` : cf : <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">CSS Tricks</a>
+- `Grid` : respecte le principe d'une grille.
+
+Source pour s'entraîner au display flex : <a href="https://flexboxfroggy.com/#fr" target="_blank">Flexbox Froggy</a>
 
 ## Bootstrap
 
@@ -97,25 +115,3 @@ Ce qui signifie que pour les colonnes, vous pouvez préciser :
 - `col-lg-6` : Prend 6 colonnes sur 12 à partir du breakpoint large.
 - `col-xl-6` : Prend 6 colonnes sur 12 à partir du breakpoint extra large.
 - `col-xxl-6` : Prend 6 colonnes sur 12 à partir du breakpoint extra extra large.
-
-### Autres
-
-- C'est le W3C (World Wide Web Consortium) qui gère les évolutions du HTML/CSS.
-- Un CTA, est un "Call To Action" : c'est à dire un lien ou un bouton qui déclenche une action.
-
-### Display
-
-Le display est une propriété CSS qui permet de gérer la manière dont les éléments doivent être affichés.
-
-Il en existe 6 principaux : 
-- `None` : N'affiche pas l'élément
-- `Block` : Prend 100% de la largeur disponible. S'adapte en hauteur, en prenant le minimum nécessaire pour afficher le contenu. On peut redéfinir sa taille en dur.
-- `Inline` : Prend uniquement l'espace nécessaire en hauter et en largeur pour afficher son contenu. On ne peut pas redéfinir sa taille.
-- `Inline-Block` : C'est le même comportement que "Inline", à ceci près qu'on peut modifier sa tailler et son padding.
-- `Flex` : cf : <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">CSS Tricks</a>
-- `Grid` : 
-
-Source pour s'entraîner au display flex : <a href="https://flexboxfroggy.com/#fr" target="_blank">Flexbox Froggy</a>
-
-
-
