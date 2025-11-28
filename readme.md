@@ -45,6 +45,17 @@ Il en existe 6 principaux :
 
 Source pour s'entraîner au display flex : <a href="https://flexboxfroggy.com/#fr" target="_blank">Flexbox Froggy</a>
 
+### Les polices d'icônes
+
+Lorsqu’on utilise beaucoup d’icônes sur un site, il est souvent plus efficace d’utiliser une police d’icônes plutôt que d’importer des dizaines d’images SVG ou PNG.
+Le principe : les icônes sont regroupées dans une police, et chaque icône est un « caractère » que l’on affiche via une classe CSS.
+
+Exemple d'utilisation de Font Awesome (<a href="https://fontawesome.com/">lien du site ici</a>) : 
+
+```html 
+<i class="fa-solid fa-user"></i>
+```
+
 ## Bootstrap
 
 Bootstrap est un framework (cadre de travail) qui vous fourni un code CSS déjà prêt à l'emploi.
