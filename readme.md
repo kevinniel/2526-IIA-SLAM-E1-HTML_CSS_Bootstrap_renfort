@@ -89,12 +89,12 @@ Bootstrap inclu ses propres breakpoints (<a href="https://getbootstrap.com/docs/
 | Extra large           | xl          | ≥1200px    |
 | Extra extra large     | xxl         | ≥1400px    |
 
-Ce qui signifie que pour les colonnes, vous pouvez préciser : 
+Ce qui signifie que pour les colonnes, vous pouvez préciser :
 
-- `col-6` : Prend l'espace de 1 colonne dans le bloc parent.
-- `col-sm-6` : Prend l'espace de 1 colonne dans le bloc parent.
-- `col-md-6` : Prend l'espace de 1 colonne dans le bloc parent.
-- `col-lg-6` : Prend l'espace de 1 colonne dans le bloc parent.
-- `col-xl-6` : Prend l'espace de 1 colonne dans le bloc parent.
-- `col-xxl-6` : Prend l'espace de 1 colonne dans le bloc parent.
+- `col-6` : Prend 6 colonnes sur 12 dans le bloc parent.
+- `col-sm-6` : Prend 6 colonnes sur 12 à partir du breakpoint small.
+- `col-md-6` : Prend 6 colonnes sur 12 à partir du breakpoint medium.
+- `col-lg-6` : Prend 6 colonnes sur 12 à partir du breakpoint large.
+- `col-xl-6` : Prend 6 colonnes sur 12 à partir du breakpoint extra large.
+- `col-xxl-6` : Prend 6 colonnes sur 12 à partir du breakpoint extra extra large.
 
