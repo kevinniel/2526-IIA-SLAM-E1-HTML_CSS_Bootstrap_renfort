@@ -1,0 +1,14 @@
+.toto {
+    display: inline-block;
+    text-align: center;
+    background-color: #0DCAF0;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.tata {
+    display: block;
+}

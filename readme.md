@@ -2,7 +2,7 @@
 
 - C'est le W3C (World Wide Web Consortium) qui gère les évolutions du HTML/CSS.
 - Un CTA, est un "Call To Action" : c'est à dire un lien ou un bouton qui déclenche une action.
-
+- Un CDN (Content Delivery Network) est un système permettant de livrer rapidement des ressources web (css, js, vidéos, etc...)
 
 ### Modèle de boite
 
@@ -126,3 +126,8 @@ Ce qui signifie que pour les colonnes, vous pouvez préciser :
 - `col-lg-6` : Prend 6 colonnes sur 12 à partir du breakpoint large.
 - `col-xl-6` : Prend 6 colonnes sur 12 à partir du breakpoint extra large.
 - `col-xxl-6` : Prend 6 colonnes sur 12 à partir du breakpoint extra extra large.
+
+### Customisation
+lorsque l'on souhaite faire des modifications sur Bootstrap, la bonne manière, est surtout de ne jamais toucher au fichier de base de bootstrap.
+A la place, il faut créer un fichier de CSS sur mesure (custom) et le positionner à la fin de la balise `<head>` pour le charger.
+Créez ensuite vos propres classes, en vérifiant qu'elles n'existent pas déjà dans bootstrap, puis mettez en place le nécessaire.
