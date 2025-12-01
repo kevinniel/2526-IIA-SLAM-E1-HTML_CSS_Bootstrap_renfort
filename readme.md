@@ -3,6 +3,7 @@
 - C'est le W3C (World Wide Web Consortium) qui gère les évolutions du HTML/CSS.
 - Un CTA, est un "Call To Action" : c'est à dire un lien ou un bouton qui déclenche une action.
 - Un CDN (Content Delivery Network) est un système permettant de livrer rapidement des ressources web (css, js, vidéos, etc...)
+- Le HTML est basé sur le XML, qui est un langage de balisage structurant.
 
 ### Modèle de boite
 
@@ -55,6 +56,26 @@ Exemple d'utilisation de Font Awesome (<a href="https://fontawesome.com/">lien d
 ```html 
 <i class="fa-solid fa-user"></i>
 ```
+
+Il est aussi possible de copier/coller directement un SVG au format XML. Par exemple : 
+
+```html
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M320 312C386.3 312 440 258.3 440 192C440 125.7 386.3 72 320 72C253.7 72 200 125.7 200 192C200 258.3 253.7 312 320 312zM290.3 368C191.8 368 112 447.8 112 546.3C112 562.7 125.3 576 141.7 576L498.3 576C514.7 576 528 562.7 528 546.3C528 447.8 448.2 368 349.7 368L290.3 368z"/></svg>
+```
+
+Pour modifier les couleurs d'un SVG, il faut utiliser les propriété suivantes : 
+
+```css
+svg {
+    /* fill permet de définir la couleur de remplissage */
+    fill: red;
+    /* stroke permet de définir la couleur des bordures */
+    stroke: green;
+    /* stroke-width permet de définir la largeur des bordures */
+    stroke-width: 10px;
+}
+```
+
 
 ## Bootstrap
 

@@ -12,3 +12,9 @@
 .tata {
     display: block;
 }
+
+svg {
+    fill: red;
+    stroke: green;
+    stroke-width: 10px;
+}
