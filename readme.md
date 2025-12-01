@@ -4,6 +4,8 @@
 - Un CTA, est un "Call To Action" : c'est à dire un lien ou un bouton qui déclenche une action.
 - Un CDN (Content Delivery Network) est un système permettant de livrer rapidement des ressources web (css, js, vidéos, etc...)
 - Le HTML est basé sur le XML, qui est un langage de balisage structurant.
+- Une maquette est le design du site internet réalisé par un graphiste sous forme d'image.
+- **Figma** : C'est un logiciel de graphisme, qui est parmi les plus utilisés pour réagliser des maquettes.
 
 ### Modèle de boite
 
@@ -31,6 +33,27 @@ Le principe est que le contenu s'adapte parfaitement à toutes les tailles d'éc
 Pour le faire, on utilise des BreakPoints, appelées "Media Queries" en CSS. Le principe, est de définir une largeur en pixels,
 et d'adapter le contenu de la page, en fonction de sa largeur. En gros, vous appliquer certaines règles CSS en fonction de la
 largeur de votre écran.
+
+Voici un exemple de création de 2 `breakpoints` : 
+
+```css
+/* Code qui s'exécute sur toutes les tailles d'écran */
+.left, .right {width: 50%; height: 580px;}
+
+/* Code pour tous les écrans inférieurs à 980px */
+@media screen and (max-width: 980px) {
+    /* On force le passage à la ligne */
+    .test {flex-wrap: wrap;}
+    /* On redéfini la largeur des blocs à 100% */
+    .left, .right {width: 100%;}
+}
+
+/* Code pour tous les écrans inférieurs à 460px */
+@media screen and (max-width: 460px) {
+    /* On redéfinit la hauteur des blocs pour qu'elle soit moins importante */
+    .left, .right {height: 290px;}
+}
+```
 
 ### Display
 
