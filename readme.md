@@ -201,3 +201,69 @@ Vous avez maintenant accès à l'URL en ligne de votre site.
 Le W3C (World Wide Web Consortium) met à disposition un outil permettant de valider votre HTML et d'y détecter de potentielles erreurs : 
 
 <a href="https://validator.w3.org/#validate_by_input" target="_blank">LIEN DU VALIDATEUR</a>
+
+## Les balises meta pour le SEO
+
+De base, on crée autant de balise META que l'on souhaite.
+
+Comment ça marche ? 
+
+On donne un "nom" à chaque balise meta, ainsi qu'un contenu.
+
+Vous avez des balises "génériques" (largement utilisées)
+
+```html
+<meta name="author" content="le nom de l'auteur">
+<meta name="copyright" content="© mon copyright">
+<meta name="description" content="Ma description">
+```
+
+Vous avez aussi des balises meta spécifiques pour twitter par exemple : 
+
+```html
+<!-- balises génériques -->
+<meta property="twitter:title" content="mon titre">
+<meta property="twitter:description" content="ma description">
+<meta property="twitter:image" content="lien_vers_mon_image">
+<!-- balises spécifiques -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:site" content="microlead.fr">
+<meta property="twitter:creator" content="@Microlead_off">
+```
+
+Vous en avez aussi des "génériques" dans le même esprit que celles de twitter. On utilise la norme "OpenGraph"
+
+```html
+<!-- balises génériques -->
+<meta property="og:title" content="mon titre">
+<meta property="og:description" content="ma description">
+<meta property="og:image" content="lien_vers_mon_image">
+<!-- balises spécifiques -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="nom_du_site">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:url" content="mon_lien">
+```
+
+Il en existe aussi pour windows : 
+
+```html
+<meta name="msapplication-TileColor" content="#1092F1">
+<meta name="msapplication-TileImage" content="https://microlead.fr/images/seo/fav-icon.png">
+```
+
+Il en existe des historiques :
+
+```html
+<meta name="keywords" content="mots clés séparés par des virgules">
+<meta name="description" content="la description du site qui va apparaitre en dessous du titre dans google">
+```
+
+Le contenu que vous devriez avoir à minima : 
+
+```html
+<title>mon titre</title>
+<meta name="description" content="la description du site qui va apparaitre en dessous du titre dans google">
+```
+
+Plus d'informations sur Open Graph : <a href="https://ogp.me/" target="_blank">ICI</a>

@@ -17,7 +17,8 @@ Pour aujourd'hui uniquement (01/12/2025), je veux que vous commenciez par intég
 
 Faire le RWD
 Breakpoints pour la maquette
-Accessibilité
-SEO
-animations CSS simples
 HTML/CSS validator W3C
+SEO
+
+Accessibilité
+animations CSS simples
