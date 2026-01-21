@@ -267,3 +267,10 @@ Le contenu que vous devriez avoir à minima :
 ```
 
 Plus d'informations sur Open Graph : <a href="https://ogp.me/" target="_blank">ICI</a>
+
+## Accessibilité
+
+2 normes principales : WCAG (internationale) & le RGAA (européenne)
+
+1er outil : WAVE (https://wave.webaim.org/extension/)
+2eme outil : Google LightHouse

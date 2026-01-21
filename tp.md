@@ -19,6 +19,6 @@ Faire le RWD
 Breakpoints pour la maquette
 HTML/CSS validator W3C
 SEO
-
 Accessibilité
+
 animations CSS simples
