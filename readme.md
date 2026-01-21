@@ -175,3 +175,23 @@ Ce qui signifie que pour les colonnes, vous pouvez préciser :
 lorsque l'on souhaite faire des modifications sur Bootstrap, la bonne manière, est surtout de ne jamais toucher au fichier de base de bootstrap.
 A la place, il faut créer un fichier de CSS sur mesure (custom) et le positionner à la fin de la balise `<head>` pour le charger.
 Créez ensuite vos propres classes, en vérifiant qu'elles n'existent pas déjà dans bootstrap, puis mettez en place le nécessaire.
+
+## Déployer avec Github Pages
+
+Attention : uniquement des sites statiques ! (pas de ramework front, pas de compilation SCSS, pas de PHP etc...)
+
+Rendez vous dans votre repository, puis "Settings", puis "Pages".
+
+<img src="./images/gp_1.png">
+
+Sélectionnez ensuite la branch de déploiement souhaitée, et cliquez sur "Save".
+
+<img src="./images/gp_2.png">
+
+Retournez sur l'onglet "Code", vous y verrez une nouvelle partie "Deployments". Cliquez sur le lien.
+
+<img src="./images/gp_3.png">
+
+Vous avez maintenant accès à l'URL en ligne de votre site.
+
+<img src="./images/gp_4.png">

@@ -7,3 +7,17 @@ Pour le 21 Janvier, à 9h le matin, vous devez avoir terminer l'intégration de 
 On fera ensemble le responsive le 21 Janvier, à partir de votre travail.
 
 Pour aujourd'hui uniquement (01/12/2025), je veux que vous commenciez par intégrer la section droite/gauche ipad air & airpods pro 3.
+
+
+
+
+------------------
+## UPDATE 21/01/2026
+------------------
+
+Faire le RWD
+Breakpoints pour la maquette
+Accessibilité
+SEO
+animations CSS simples
+HTML/CSS validator W3C
