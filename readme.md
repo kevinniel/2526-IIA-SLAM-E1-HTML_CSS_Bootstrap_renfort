@@ -195,3 +195,9 @@ Retournez sur l'onglet "Code", vous y verrez une nouvelle partie "Deployments". 
 Vous avez maintenant accès à l'URL en ligne de votre site.
 
 <img src="./images/gp_4.png">
+
+## Validation du code
+
+Le W3C (World Wide Web Consortium) met à disposition un outil permettant de valider votre HTML et d'y détecter de potentielles erreurs : 
+
+<a href="https://validator.w3.org/#validate_by_input" target="_blank">LIEN DU VALIDATEUR</a>

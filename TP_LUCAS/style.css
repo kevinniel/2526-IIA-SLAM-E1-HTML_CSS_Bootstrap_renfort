@@ -1,0 +1,257 @@
+
+
+.img{
+    background-image: url(img.jpg) ;
+    background-size: cover;
+    background-position: center;    
+}
+
+.img-1{
+    background-image: url(airepod.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-2{
+    background-image: url(airepodpro3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-3{
+    background-image: url(iphone1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-4{
+    background-image: url(iphone2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 300px;
+}
+
+
+.apple-watch {
+    background-image: url(image5.jpg);
+}
+
+.apple-ipad {
+    background-image: url(image6.jpg);
+}
+
+.apple-macbook {
+    background-image: url(image7.jpg);
+}
+
+.apple-tradein {
+    background-image: url(image8.jpg);
+}
+
+
+.test{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+
+.hero-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+.bas {
+  display: flex;
+  justify-content: center; 
+  align-items: flex-end;   
+  height: 300px;
+}
+
+.haut {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;   
+}
+
+
+
+.iphone-img {
+    max-width: 280px;
+    transition: transform 0.3s;
+}
+
+.iphone-img:hover {
+    transform: scale(1.05);
+}
+
+.navbar {
+    background-color: rgba(0,0,0,0.9);
+}
+
+.nav-link {
+    color: #ddd !important;
+    font-size: 14px;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+.navbartest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-1,
+.img-2,
+.apple-watch,
+.apple-ipad,
+.apple-macbook,
+.apple-tradein {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+.apple-tv-wrapper {
+    background: #000;
+    padding: 0;
+}
+
+.apple-tv-slide {
+    height: 520px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.family-plan {
+    background-image: url(image10.jpg);
+}
+
+.slide-2 {
+    background-image: url(image9.jpg);
+}
+
+.slide-3 {
+    background-image: url(image11.jpg);
+}
+
+.apple-tv-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 8%;
+}
+
+.apple-tv-logo {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.apple-tv-text h1 {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 900;
+    color: #ffd54a;
+    line-height: 0.95;
+    font-size: 4.5rem;
+}
+
+.apple-tv-text .small-title {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+.apple-tv-text .number {
+    font-size: 6rem;
+}
+
+.apple-tv-dots {
+    bottom: 15px;
+}
+
+.apple-tv-dots button {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+
+
+.carousel-indicators [data-bs-target]{
+    width: 30px;
+    height: 30px;
+}
+
+
+.apple-footer-final {
+    background: #f5f5f7;
+    font-size: 12px;
+    color: #6e6e73;
+    padding: 40px 0;
+}
+
+.apple-legal-text p {
+    margin-bottom: 6px;
+    line-height: 1.5;
+}
+
+.apple-footer-final hr {
+    border-top: 1px solid #d2d2d7;
+    margin: 20px 0;
+}
+
+.apple-footer-links h6 {
+    font-size: 12px;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-bottom: 8px;
+}
+
+.apple-footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.apple-footer-links ul li {
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+
+.apple-footer-links ul li:hover {
+    text-decoration: underline;
+}
+
+.apple-footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+
+
+
+
+
+
